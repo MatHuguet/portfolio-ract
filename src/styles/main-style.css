@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+}
+
+@media screen and (width <= 900px) {
+    main {
+        display: block;
+    }
+}
